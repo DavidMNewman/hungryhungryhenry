@@ -7,13 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		177B701ED110034C7C0461D6 /* UIImage+StatusIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177B75A2749A65AD4A6C4B1F /* UIImage+StatusIcon.swift */; };
+		177B70EE53779FDEB1EAC4DB /* Pet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177B7F997A8F3DBD0405DA6E /* Pet.swift */; };
+		177B76A9F9053926D1395297 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177B78C96FC90323FB84D9BC /* Task.swift */; };
 		F0342AF41C63E54300D2DC3A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0342AF31C63E54300D2DC3A /* AppDelegate.swift */; };
-		F0342AF61C63E54300D2DC3A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0342AF51C63E54300D2DC3A /* ViewController.swift */; };
+		F0342AF61C63E54300D2DC3A /* PetsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0342AF51C63E54300D2DC3A /* PetsViewController.swift */; };
 		F0342AF91C63E54300D2DC3A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0342AF71C63E54300D2DC3A /* Main.storyboard */; };
 		F0342AFB1C63E54300D2DC3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0342AFA1C63E54300D2DC3A /* Assets.xcassets */; };
 		F0342AFE1C63E54300D2DC3A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0342AFC1C63E54300D2DC3A /* LaunchScreen.storyboard */; };
 		F0342B091C63E54300D2DC3A /* HungryHungryHenryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0342B081C63E54300D2DC3A /* HungryHungryHenryTests.swift */; };
 		F0342B141C63E54300D2DC3A /* HungryHungryHenryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0342B131C63E54300D2DC3A /* HungryHungryHenryUITests.swift */; };
+		F0342B251C6503AB00D2DC3A /* PetTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0342B241C6503AB00D2DC3A /* PetTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +38,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		F0342AF01C63E54300D2DC3A /* HungryHungryHenry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HungryHungryHenry.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		177B75A2749A65AD4A6C4B1F /* UIImage+StatusIcon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+StatusIcon.swift"; sourceTree = "<group>"; };
+		177B78C96FC90323FB84D9BC /* Task.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		177B7F997A8F3DBD0405DA6E /* Pet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pet.swift; sourceTree = "<group>"; };
+		F0342AF01C63E54300D2DC3A /* Hungry Henry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hungry Henry.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0342AF31C63E54300D2DC3A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F0342AF51C63E54300D2DC3A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F0342AF51C63E54300D2DC3A /* PetsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PetsViewController.swift; path = ../PetsViewController.swift; sourceTree = "<group>"; };
 		F0342AF81C63E54300D2DC3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F0342AFA1C63E54300D2DC3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F0342AFD1C63E54300D2DC3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +54,7 @@
 		F0342B0F1C63E54300D2DC3A /* HungryHungryHenryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HungryHungryHenryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0342B131C63E54300D2DC3A /* HungryHungryHenryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HungryHungryHenryUITests.swift; sourceTree = "<group>"; };
 		F0342B151C63E54300D2DC3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0342B241C6503AB00D2DC3A /* PetTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PetTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +82,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		177B789AFA5C3D8D1992C558 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				177B75A2749A65AD4A6C4B1F /* UIImage+StatusIcon.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		177B7AFE1BB1114A760CB193 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				177B7F997A8F3DBD0405DA6E /* Pet.swift */,
+				177B78C96FC90323FB84D9BC /* Task.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		F0342AE71C63E54300D2DC3A = {
 			isa = PBXGroup;
 			children = (
@@ -87,7 +112,7 @@
 		F0342AF11C63E54300D2DC3A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F0342AF01C63E54300D2DC3A /* HungryHungryHenry.app */,
+				F0342AF01C63E54300D2DC3A /* Hungry Henry.app */,
 				F0342B041C63E54300D2DC3A /* HungryHungryHenryTests.xctest */,
 				F0342B0F1C63E54300D2DC3A /* HungryHungryHenryUITests.xctest */,
 			);
@@ -97,12 +122,15 @@
 		F0342AF21C63E54300D2DC3A /* HungryHungryHenry */ = {
 			isa = PBXGroup;
 			children = (
+				F0342B231C65033200D2DC3A /* ViewControllers */,
+				F0342B221C65030000D2DC3A /* Views */,
 				F0342AF31C63E54300D2DC3A /* AppDelegate.swift */,
-				F0342AF51C63E54300D2DC3A /* ViewController.swift */,
 				F0342AF71C63E54300D2DC3A /* Main.storyboard */,
 				F0342AFA1C63E54300D2DC3A /* Assets.xcassets */,
 				F0342AFC1C63E54300D2DC3A /* LaunchScreen.storyboard */,
 				F0342AFF1C63E54300D2DC3A /* Info.plist */,
+				177B7AFE1BB1114A760CB193 /* Models */,
+				177B789AFA5C3D8D1992C558 /* Helpers */,
 			);
 			path = HungryHungryHenry;
 			sourceTree = "<group>";
@@ -125,6 +153,22 @@
 			path = HungryHungryHenryUITests;
 			sourceTree = "<group>";
 		};
+		F0342B221C65030000D2DC3A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F0342B241C6503AB00D2DC3A /* PetTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F0342B231C65033200D2DC3A /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				F0342AF51C63E54300D2DC3A /* PetsViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -142,7 +186,7 @@
 			);
 			name = HungryHungryHenry;
 			productName = HungryHungryHenry;
-			productReference = F0342AF01C63E54300D2DC3A /* HungryHungryHenry.app */;
+			productReference = F0342AF01C63E54300D2DC3A /* Hungry Henry.app */;
 			productType = "com.apple.product-type.application";
 		};
 		F0342B031C63E54300D2DC3A /* HungryHungryHenryTests */ = {
@@ -193,6 +237,7 @@
 				TargetAttributes = {
 					F0342AEF1C63E54300D2DC3A = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 9JSR35UNSX;
 					};
 					F0342B031C63E54300D2DC3A = {
 						CreatedOnToolsVersion = 7.2;
@@ -256,8 +301,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F0342AF61C63E54300D2DC3A /* ViewController.swift in Sources */,
+				F0342AF61C63E54300D2DC3A /* PetsViewController.swift in Sources */,
+				F0342B251C6503AB00D2DC3A /* PetTableViewCell.swift in Sources */,
 				F0342AF41C63E54300D2DC3A /* AppDelegate.swift in Sources */,
+				177B70EE53779FDEB1EAC4DB /* Pet.swift in Sources */,
+				177B76A9F9053926D1395297 /* Task.swift in Sources */,
+				177B701ED110034C7C0461D6 /* UIImage+StatusIcon.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,10 +448,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = HungryHungryHenry/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bluefletch.HungryHungryHenry;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Hungry Henry";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -410,10 +462,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = HungryHungryHenry/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bluefletch.HungryHungryHenry;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Hungry Henry";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -484,6 +539,7 @@
 				F0342B1A1C63E54300D2DC3A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F0342B1B1C63E54300D2DC3A /* Build configuration list for PBXNativeTarget "HungryHungryHenryTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +548,7 @@
 				F0342B1D1C63E54300D2DC3A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F0342B1E1C63E54300D2DC3A /* Build configuration list for PBXNativeTarget "HungryHungryHenryUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +557,7 @@
 				F0342B201C63E54300D2DC3A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
